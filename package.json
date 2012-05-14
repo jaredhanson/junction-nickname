@@ -1,0 +1,29 @@
+{
+  "name": "junction-nickname",
+  "version": "0.0.0",
+  "description": "User Nickname middleware for Junction.",
+  "keywords": ["junction", "xmpp", "jabber", "nick", "nickname", "xep0172", "middleware"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/junction-nickname.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/junction-nickname/issues"
+  },
+  "author": { "name": "Jared Hanson", "email": "jaredhanson@gmail.com", "url": "http://www.jaredhanson.net/" },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT" 
+  } ],
+  "main": "./lib",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "junction": "0.2.x",
+    "vows": "0.6.x"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "engines": { "node": ">= 0.4.0" }
+}
