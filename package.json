@@ -1,6 +1,6 @@
 {
   "name": "junction-nickname",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "User Nickname middleware for Junction.",
   "keywords": ["junction", "xmpp", "jabber", "nick", "nickname", "xep0172", "middleware"],
   "repository": {
