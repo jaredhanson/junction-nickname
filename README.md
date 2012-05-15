@@ -3,6 +3,27 @@
 [User Nickname](http://xmpp.org/extensions/xep-0172.html) middleware built on [Junction](http://github.com/jaredhanson/junction)
 and [Node](http://nodejs.org).
 
+## Installation
+
+    $ npm install junction-nickname
+
+## Usage
+
+To parse user nicknames in message and presence stanzas, use `nickname`
+middleware:
+
+    var nickname = require('junction-nickname');
+
+    var app = junction()
+      .use(nickname());
+
+## Tests
+
+    $ npm install --dev
+    $ make test
+
+[![Build Status](https://secure.travis-ci.org/jaredhanson/junction-nickname.png)](http://travis-ci.org/jaredhanson/junction-nickname)
+
 ## License
 
 (The MIT License)
